@@ -44,4 +44,3 @@
    * Jupyter Notebook ( Analise e prototipagens )
    * PowerBI
 
-!()[]
