@@ -27,9 +27,11 @@
 - [] PowerBI
 
 4.	**Entrada (Fonte de dados)**
-6.1	Fonte de dados
+
+4.1	**Fonte de dados**
 * https://books.toscrape.com/
-4.2	Ferramentas
+
+4.2	**Ferramentas**
 * Python 3.8.0
 * Bibliotecas de Webscrapping ( BS4)
 * VisualCode
