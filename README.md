@@ -25,8 +25,8 @@
    - [x] Definição do schema: Colunas e seu tipo
    - [x] Definição a infraestrutura de armazenamento ( csv )
    - [x] Design do ETL ( Scripts de Extração, Transformação e Carga )
-   - [] Fazer as visualizações
-   - [] Entrega do produto final
+   - [x] Fazer as visualizações
+   - [x] Entrega do produto final
 
 - **Decidir o local de entrega ( PowerBi, Telegram, Email, Streamlit, Intranet )**
    - [x] PowerBI
@@ -43,3 +43,5 @@
    * VisualCode
    * Jupyter Notebook ( Analise e prototipagens )
    * PowerBI
+
+!()[C:\Users\Utilizador\repos\Python_ds_ao_dev\Projeto_Book_to_Scrape\Screenshot_1.png]
