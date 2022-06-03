@@ -43,3 +43,5 @@
    * VisualCode
    * Jupyter Notebook ( Analise e prototipagens )
    * PowerBI
+
+![Screenshot](Screenshot_1.png)
