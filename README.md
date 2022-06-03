@@ -44,4 +44,4 @@
    * Jupyter Notebook ( Analise e prototipagens )
    * PowerBI
 
-!()[C:\Users\Utilizador\repos\Python_ds_ao_dev\Projeto_Book_to_Scrape\Screenshot_1.png]
+!(d)[C:\Users\Utilizador\repos\Python_ds_ao_dev\Projeto_Book_to_Scrape\Screenshot_1.png](https://drive.google.com/file/d/1w6yjvRw-piTQUnHM6kbAXQej5gyoOBUO/view)]
