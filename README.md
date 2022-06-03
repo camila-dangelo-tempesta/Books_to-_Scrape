@@ -24,7 +24,7 @@
    - [x] Tabela com as seguintes colunas: product_name | product_price | product_stock | product_star | product_catalog
    - [x] Definição do schema: Colunas e seu tipo
    - [x] Definição a infraestrutura de armazenamento ( csv )
-   - [x]Design do ETL ( Scripts de Extração, Transformação e Carga )
+   - [x] Design do ETL ( Scripts de Extração, Transformação e Carga )
    - [] Fazer as visualizações
    - [] Entrega do produto final
 
