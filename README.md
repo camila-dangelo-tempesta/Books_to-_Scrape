@@ -13,7 +13,7 @@
 ***
 3.	**Processo ( Passo a Passo )**
 - **Passo a passso para construir o cálculo da mediana ou média**
-   - [] Realizar o calculo da mediana sobre o produto, tipo e cor
+   - [] Realizar o calculo da mediana sobre o produto, catálogo e avaliação 
 
 - **Definir o formato da entrega ( Visualização, Tabela, Texto)**
    - [] Gráfico com a mediana dos preço dos produtos, por catálogo e avaliação 
