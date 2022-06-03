@@ -25,7 +25,7 @@
 
 - **Decidir o local de entrega ( PowerBi, Telegram, Email, Streamlit, Intranet )**
    - [] PowerBI
-
+***
 4.	**Entrada (Fonte de dados)**
 
 - **Fonte de dados**
