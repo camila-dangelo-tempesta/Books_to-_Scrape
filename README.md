@@ -5,9 +5,11 @@
 ***
 1.	**Problema de Negócio**
 - Qual catálogo possui o melhor preço de compra segundo as recomendações dos clientes?
+   - Qual catálogo possui o menor preço de compra segundo as recomendações dos clientes?
+   - Qual catálogo possui o maior preço de compra segundo as recomendações dos clientes?
 ***
 2.	**Saída: ( Produto final )**
-- A resposta para a pergunta: Mediana dos preços dos catálogos.
+- A resposta para a pergunta: Mediana, Max e Min dos preços dos catálogos.
 - Formato da entrega: Tabela e Gráfico
 - Local da entrega: PowerBi
 ***
@@ -33,7 +35,8 @@
 
 - **Ferramentas**
    * Python 3.8.0
-   * Bibliotecas de Webscrapping ( BS4)
+   * Bobliotecas:Pandas, Numpy
+   * Bibliotecas de Webscrapping (BS4)
    * VisualCode
    * Jupyter Notebook ( Analise e prototipagens )
    * PowerBI
