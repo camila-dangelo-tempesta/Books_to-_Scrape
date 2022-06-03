@@ -7,7 +7,7 @@
 1.1.	Problema de negócio: Qual catálogo possui o melhor preço de compra segundo as recomendações dos clientes?
 ***
 2.	**Saída: ( Produto final )**
-2.1.	A resposta para a pergunta: Mediana dos preços dos catálogos.
+2. A resposta para a pergunta: Mediana dos preços dos catálogos.
 2.2.	Formato da entrega: Tabela e Gráfico
 2.3.	Local da entrega: PowerBi
 ***
