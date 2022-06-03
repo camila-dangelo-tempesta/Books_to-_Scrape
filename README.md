@@ -15,18 +15,21 @@
 ***
 3.	**Processo ( Passo a Passo )**
 - **Passo a passso para construir o cálculo da mediana ou média**
-   - [] Realizar o calculo da mediana sobre o produto, catálogo e avaliação 
+   - [x] Realizar o calculo da mediana sobre o produto, catálogo e avaliação
+   - [x] Realizar o calculo da minimo sobre o produto, catálogo e avaliação
+   - [x] Realizar o calculo da máximo sobre o produto, catálogo e avaliação 
 
 - **Definir o formato da entrega ( Visualização, Tabela, Texto)**
    - [] Gráfico com a mediana dos preço dos produtos, por catálogo e avaliação 
-   - [] Tabela com as seguintes colunas: product_name | product_price | product_stock | product_star | product_catalog
-   - [] Definição do schema: Colunas e seu tipo
-   - [] Definição a infraestrutura de armazenamento ( csv )Design do ETL ( Scripts de Extração, Transformação e Carga )
+   - [x] Tabela com as seguintes colunas: product_name | product_price | product_stock | product_star | product_catalog
+   - [x] Definição do schema: Colunas e seu tipo
+   - [x] Definição a infraestrutura de armazenamento ( csv )
+   - [x]Design do ETL ( Scripts de Extração, Transformação e Carga )
    - [] Fazer as visualizações
    - [] Entrega do produto final
 
 - **Decidir o local de entrega ( PowerBi, Telegram, Email, Streamlit, Intranet )**
-   - [] PowerBI
+   - [x] PowerBI
 ***
 4.	**Entrada (Fonte de dados)**
 
