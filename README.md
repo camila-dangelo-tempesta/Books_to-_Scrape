@@ -12,10 +12,10 @@
 - Local da entrega: PowerBi
 ***
 3.	**Processo ( Passo a Passo )**
-- Passo a passso para construir o cálculo da mediana ou média
+- **Passo a passso para construir o cálculo da mediana ou média**
 - [] Realizar o calculo da mediana sobre o produto, tipo e cor
-- 
-3. Definir o formato da entrega ( Visualização, Tabela, Texto)
+
+- **Definir o formato da entrega ( Visualização, Tabela, Texto)**
 -[] Gráfico com a mediana dos preço dos produtos, por catálogo e avaliação 
 -[] Tabela com as seguintes colunas: product_name | product_price | product_stock | product_star | product_catalog
 -[] Definição do schema: Colunas e seu tipo
@@ -23,15 +23,15 @@
 -[] Fazer as visualizações
 -[] Entrega do produto final
 
-3. Decidir o local de entrega ( PowerBi, Telegram, Email, Streamlit, Intranet )
+- **Decidir o local de entrega ( PowerBi, Telegram, Email, Streamlit, Intranet )**
 -[] PowerBI
 
 4.	**Entrada (Fonte de dados)**
 
-4. **Fonte de dados**
+- **Fonte de dados**
 * https://books.toscrape.com/
 
-4. **Ferramentas**
+- **Ferramentas**
 * Python 3.8.0
 * Bibliotecas de Webscrapping ( BS4)
 * VisualCode
