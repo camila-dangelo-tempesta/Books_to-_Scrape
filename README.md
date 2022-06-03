@@ -20,7 +20,7 @@
    - [x] Realizar o calculo da máximo sobre o produto, catálogo e avaliação 
 
 - **Definir o formato da entrega ( Visualização, Tabela, Texto)**
-   - [] Gráfico com a mediana dos preço dos produtos, por catálogo e avaliação 
+   - [x] Gráfico com a mediana dos preço dos produtos, por catálogo e avaliação 
    - [x] Tabela com as seguintes colunas: product_name | product_price | product_stock | product_star | product_catalog
    - [x] Definição do schema: Colunas e seu tipo
    - [x] Definição a infraestrutura de armazenamento ( csv )
