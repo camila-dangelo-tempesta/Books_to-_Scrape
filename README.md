@@ -7,13 +7,13 @@
 - Qual catálogo possui o melhor preço de compra segundo as recomendações dos clientes?
 ***
 2.	**Saída: ( Produto final )**
--A resposta para a pergunta: Mediana dos preços dos catálogos.
--Formato da entrega: Tabela e Gráfico
--Local da entrega: PowerBi
+- A resposta para a pergunta: Mediana dos preços dos catálogos.
+- Formato da entrega: Tabela e Gráfico
+- Local da entrega: PowerBi
 ***
 3.	**Processo ( Passo a Passo )**
--Passo a passso para construir o cálculo da mediana ou média
--[] Realizar o calculo da mediana sobre o produto, tipo e cor
+- Passo a passso para construir o cálculo da mediana ou média
+- [] Realizar o calculo da mediana sobre o produto, tipo e cor
 - 
 3. Definir o formato da entrega ( Visualização, Tabela, Texto)
 -[] Gráfico com a mediana dos preço dos produtos, por catálogo e avaliação 
