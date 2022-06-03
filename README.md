@@ -17,23 +17,23 @@
 
 - **Definir o formato da entrega ( Visualização, Tabela, Texto)**
    - [] Gráfico com a mediana dos preço dos produtos, por catálogo e avaliação 
-- [] Tabela com as seguintes colunas: product_name | product_price | product_stock | product_star | product_catalog
-- [] Definição do schema: Colunas e seu tipo
-- [] Definição a infraestrutura de armazenamento ( csv )Design do ETL ( Scripts de Extração, Transformação e Carga )
-- [] Fazer as visualizações
-- [] Entrega do produto final
+   - [] Tabela com as seguintes colunas: product_name | product_price | product_stock | product_star | product_catalog
+   - [] Definição do schema: Colunas e seu tipo
+   - [] Definição a infraestrutura de armazenamento ( csv )Design do ETL ( Scripts de Extração, Transformação e Carga )
+   - [] Fazer as visualizações
+   - [] Entrega do produto final
 
 - **Decidir o local de entrega ( PowerBi, Telegram, Email, Streamlit, Intranet )**
-- [] PowerBI
+   - [] PowerBI
 
 4.	**Entrada (Fonte de dados)**
 
 - **Fonte de dados**
-* https://books.toscrape.com/
+   * https://books.toscrape.com/
 
 - **Ferramentas**
-* Python 3.8.0
-* Bibliotecas de Webscrapping ( BS4)
-* VisualCode
-* Jupyter Notebook ( Analise e prototipagens )
-* PowerBI
+   * Python 3.8.0
+   * Bibliotecas de Webscrapping ( BS4)
+   * VisualCode
+   * Jupyter Notebook ( Analise e prototipagens )
+   * PowerBI
