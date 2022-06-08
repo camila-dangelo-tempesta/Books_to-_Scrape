@@ -15,6 +15,12 @@ So, let’s begin!
 
 # 2. Business Assumptions.
 
+**2.1. Catalogs:**
+
+- CLASSICS
+- SCIENCE FICTION
+- HUMOR
+
 In this simple scrape script, which will scrape the data from the [Books to Scrape](books.toscrape.com) . The data that we will extract from the page will be the following:
 
 
@@ -83,13 +89,12 @@ To extract data from a webpage, the first thing we need to do is read the HTML c
 
 # 8. Next Steps to Improve
 
-**1.** **Develop an app**
+**1.** **Perform the collection for all catalogs automatically**
 
-**2.** **Run a Design Discovery**
-
+**2.** **Execute new insights and new discoveries**
 
 ***
-- **Fonte de dados**
+- **Data source**
    * https://books.toscrape.com/
 ***
 - **Tools**
