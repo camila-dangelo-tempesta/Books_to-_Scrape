@@ -24,7 +24,6 @@ So, let’s begin!
 In this simple scrape script, which will scrape the data from the [Books to Scrape](books.toscrape.com) . The data that we will extract from the page will be the following:
 
 
-
 - Book title (title)
 - Price (price)
 - Availability (stock)
@@ -72,14 +71,16 @@ To extract data from a webpage, the first thing we need to do is read the HTML c
 # 4. Top 3 Data Insights
 
 **Hypothesis 01:** Which catalog has the best purchase price according to customer recommendations?
+- Business
 
-**Hypothesis 02:** Which catalog has the lowest purchase price according to customer recommendations? 
+**Hypothesis 02:** Which catalog has the lowest purchase price according to customer recommendations?
+- Science Fiction
 
 **Hypothesis 03:** Which catalog has the highest purchase price according to customer recommendations?
-
+- Humor
 
 # 5. Business Results
-  
+
 ***
 ![Dashboard](dashboard.png)
 
