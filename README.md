@@ -1,8 +1,65 @@
-## **Books_to _Scrape**
- Web scraping, mining to extract data from the site, Book to Scrape, and converting them into structured information for further analysis.
+# **Books_to _Scrape**
+
+
+ ## Web scraping, mining to extract data from the site, Book to Scrape, and converting them into structured information for further analysis.
+
+![]()
 ***
+
+# 1. Business Problem.
+
+# 2. Business Assumptions.
+
+# 3. Solution Strategy
+
 # _**O método SAPE**_
-***
+
+**Step 01. Data Description:**
+
+**Step 02. Feature Engineering:** 
+
+**Step 03. Data Filtering:** 
+
+**Step 04. Exploratory Data Analysis:**
+
+**Step 05. Data Preparation:**
+
+**Step 06. Feature Selection:**
+
+**Step 08. Hyperparameter Fine Tunning:**
+
+**Step 09. Convert Model Performance to Business Values:**
+
+**Step 10. Deploy Modelo to Production:** 
+
+# 4. Top 3 Data Insights
+
+**Hypothesis 01:**
+
+**False.** 
+
+**Hypothesis 02:**
+
+**False.** 
+
+**Hypothesis 03:**
+
+**False.** 
+
+# 5. Business Results
+
+# 6. Conclusions
+
+# 7. Lessons Learned
+
+# 8. Next Steps to Improve
+
+**1.** **Develop an app**
+
+**2.** **Run a Design Discovery**
+
+
+
 1.	**Problema de Negócio**
 - Qual catálogo possui o melhor preço de compra segundo as recomendações dos clientes?
    - Qual catálogo possui o menor preço de compra segundo as recomendações dos clientes?
