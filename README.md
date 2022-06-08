@@ -43,15 +43,15 @@ To extract data from a webpage, the first thing we need to do is read the HTML c
 
 ***
 **Step 02. Data Description:** My goal is to use statistics metrics to identify data outside the scope of business.
-   - [x] Realizar o calculo da mediana sobre o produto, catálogo e avaliação
-   - [x] Realizar o calculo da minimo sobre o produto, catálogo e avaliação
-   - [x] Realizar o calculo da máximo sobre o produto, catálogo e avaliação 
+   - [x] Perform the median calculation on the product, catalog and evaluation
+   - [x] Perform the minimum calculation on the product, catalog and evaluation
+   - [x] Perform the maximum calculation on the product, catalog and evaluation
 
 ***
 **Step 03. Feature Engineering:** Derive new attributes based on the original variables to better describe the phenomenon that will be modeled.
-   - [x] Definição do schema: Colunas e seu tipo
+   - [x] Schema definition: Columns and their type
    - [x] Table with the following columns: product_name | product_price | product_stock | product_star | product_catalog
-   - [x] Design do ETL ( Scripts de Extração, Transformação e Carga )
+   - [x] ETL Design (Extract, Transform, and Load Scripts)
 
 ***
 **Step 04. Exploratory Data Analysis:** Explore the data to find insights and better understand the impact of variables on model learning.
