@@ -1,52 +1,81 @@
 # **Books_to _Scrape**
 
+## Web Scraping with Python
 
- ## Web scraping, mining to extract data from the site, Book to Scrape, and converting them into structured information for further analysis.
-
-![]()
+![Book](book.png)
 ***
 
 # 1. Business Problem.
 
+Web scraping or Web data extraction is a way to automatically extract meaningful data available on websites. When there is no direct access to gather data using API or feeds, web scraping can be an effective way to automate data extraction.
+
+In this project, I will use Python to create a simple yet effective web scraping script. This will be my starting point to delve deep into the field of web scraping using Python.
+
+So, let’s begin!
+
 # 2. Business Assumptions.
 
+In this simple scrape script, which will scrape the data from the [Books to Scrape](books.toscrape.com) . The data that we will extract from the page will be the following:
+
+
+
+- Book title (title)
+- Price (price)
+- Availability (stock)
+- Rating (stars)
+
+
+I will extract the data from the website to convert it into structured information for further analysis.
+
 # 3. Solution Strategy
+SAPE method
 
-# _**O método SAPE**_
+***
+**Step 01. Configure the BeautifulSoup library:** This way we will have all the structure we need for our scraper to work.
 
-**Step 01. Data Description:**
+To extract data from a webpage, the first thing we need to do is read the HTML content of that page. To do this, we'll need to cloak our python code so that it can send a get or post request to the webpage's URL and get the HTML response bac
 
-**Step 02. Feature Engineering:** 
+***
+**Step 02. Data Description:** My goal is to use statistics metrics to identify data outside the scope of business.
+   - [x] Realizar o calculo da mediana sobre o produto, catálogo e avaliação
+   - [x] Realizar o calculo da minimo sobre o produto, catálogo e avaliação
+   - [x] Realizar o calculo da máximo sobre o produto, catálogo e avaliação 
 
-**Step 03. Data Filtering:** 
+***
+**Step 03. Feature Engineering:** Derive new attributes based on the original variables to better describe the phenomenon that will be modeled.
+   - [x] Definição do schema: Colunas e seu tipo
+   - [x] Table with the following columns: product_name | product_price | product_stock | product_star | product_catalog
+   - [x] Design do ETL ( Scripts de Extração, Transformação e Carga )
 
-**Step 04. Exploratory Data Analysis:**
+***
+**Step 04. Exploratory Data Analysis:** Explore the data to find insights and better understand the impact of variables on model learning.
 
-**Step 05. Data Preparation:**
-
+***
+**Step 05. Data Preparation:**: Prepare data to identify specific behaviors for hypothesis validation
+  
+***
 **Step 06. Feature Selection:**
-
-**Step 08. Hyperparameter Fine Tunning:**
-
-**Step 09. Convert Model Performance to Business Values:**
-
-**Step 10. Deploy Modelo to Production:** 
+- **Define the delivery format (View, Table, Text)**
+   - [x] Defining the storage infrastructure ( csv )
+   - [x] Graph with the median price of products, by catalog and evaluation
+   - [x] make the visualizations
+- **Decide the delivery location ( PowerBi, Telegram, Email, Streamlit, Intranet )**
+   - [x] PowerBI
+***
 
 # 4. Top 3 Data Insights
 
-**Hypothesis 01:**
+**Hypothesis 01:** Which catalog has the best purchase price according to customer recommendations?
 
-**False.** 
+**Hypothesis 02:** Which catalog has the lowest purchase price according to customer recommendations? 
 
-**Hypothesis 02:**
+**Hypothesis 03:** Which catalog has the highest purchase price according to customer recommendations?
 
-**False.** 
-
-**Hypothesis 03:**
-
-**False.** 
 
 # 5. Business Results
+  
+***
+![Dashboard](dashboard.png)
 
 # 6. Conclusions
 
@@ -59,46 +88,15 @@
 **2.** **Run a Design Discovery**
 
 
-
-1.	**Problema de Negócio**
-- Qual catálogo possui o melhor preço de compra segundo as recomendações dos clientes?
-   - Qual catálogo possui o menor preço de compra segundo as recomendações dos clientes?
-   - Qual catálogo possui o maior preço de compra segundo as recomendações dos clientes?
 ***
-2.	**Saída: ( Produto final )**
-- A resposta para a pergunta: Mediana, Max e Min dos preços dos catálogos.
-- Formato da entrega: Tabela e Gráfico
-- Local da entrega: PowerBi
-***
-3.	**Processo ( Passo a Passo )**
-- **Passo a passso para construir o cálculo da mediana ou média**
-   - [x] Realizar o calculo da mediana sobre o produto, catálogo e avaliação
-   - [x] Realizar o calculo da minimo sobre o produto, catálogo e avaliação
-   - [x] Realizar o calculo da máximo sobre o produto, catálogo e avaliação 
-
-- **Definir o formato da entrega ( Visualização, Tabela, Texto)**
-   - [x] Gráfico com a mediana dos preço dos produtos, por catálogo e avaliação 
-   - [x] Tabela com as seguintes colunas: product_name | product_price | product_stock | product_star | product_catalog
-   - [x] Definição do schema: Colunas e seu tipo
-   - [x] Definição a infraestrutura de armazenamento ( csv )
-   - [x] Design do ETL ( Scripts de Extração, Transformação e Carga )
-   - [x] Fazer as visualizações
-   - [x] Entrega do produto final
-
-- **Decidir o local de entrega ( PowerBi, Telegram, Email, Streamlit, Intranet )**
-   - [x] PowerBI
-***
-4.	**Entrada (Fonte de dados)**
-
 - **Fonte de dados**
    * https://books.toscrape.com/
-
-- **Ferramentas**
+***
+- **Tools**
    * Python 3.8.0
-   * Bobliotecas:Pandas, Numpy
-   * Bibliotecas de Webscrapping (BS4)
+   * Libraries:Pandas, Numpy
+   * Webscrapping Libraries (BS4)
    * VisualCode
-   * Jupyter Notebook ( Analise e prototipagens )
-   * PowerBI
+   * Jupyter Notebook ( Analysis and prototyping )
+   * PowerBI (Views)
  ***
-![Dashboard](Screenshot_1.png)
