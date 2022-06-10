@@ -15,6 +15,8 @@ So, let’s begin!
 
 # 2. Business Assumptions.
 
+The assumptions about the business problem are as follows:
+
 **2.1. Catalogs:**
 
 - CLASSICS
