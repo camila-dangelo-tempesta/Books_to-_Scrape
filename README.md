@@ -46,7 +46,6 @@ Variable | Definition
 ### 3.0 Define the delivery format (View, Table, Text)
    - [x] Defining the storage infrastructure ( csv )
    - [x] Graph with the median price of products, by catalog and evaluation
-   - [x] make the visualizations
 ### 3.0.0 Decide the delivery location ( PowerBi, Telegram, Email, Streamlit, Intranet )
    - [x] PowerBI
 
@@ -54,6 +53,7 @@ Variable | Definition
 
 This project aims to deliver:
 
+- Table with al products
 - Deliver the best insights based on data behavior analysis.
 - Dashboard in PowerB
 
@@ -65,6 +65,8 @@ This project aims to deliver:
 - Jupyter Notebook ( Analysis and prototyping );
 - Git e Github;
 - VisualCode
+- SQL
+   * Libraries:SQLite
 - PowerBI (Views)
 
 ### 3.3 Solution Strategy
