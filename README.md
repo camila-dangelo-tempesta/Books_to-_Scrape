@@ -13,6 +13,8 @@ So, let’s begin!
 
 ## 1. Business Problems
 
+Which catalog should be displayed first in the sales recommendation to users?
+
 ### 1.1 Problems
 
 - Extract data from a web page;
@@ -42,18 +44,20 @@ Variable | Definition
 ## 3. Solution Planning
 
 ### 3.0 Define the delivery format (View, Table, Text)
-   - [x] Defining the storage infrastructure ( csv )
-   - [x] Graph with the median price of products, by catalog and evaluation
-   - [x] make the visualizations
+   - [x] Defining the storage infrastructure (database)
+      * Libraries:SQLite
+   
 ### 3.0.0 Decide the delivery location ( PowerBi, Telegram, Email, Streamlit, Intranet )
    - [x] PowerBI
+      * Graph with the median price of products, by catalog and evaluation
 
 ### 3.1 Final product
 
 This project aims to deliver:
 
+- Table with al products
 - Deliver the best insights based on data behavior analysis.
-- Dashboard in PowerB
+- Dashboard in PowerBI
 
 ### 3.2 Tools
 
@@ -62,7 +66,7 @@ This project aims to deliver:
    * Webscrapping Libraries (BS4)
 - Jupyter Notebook ( Analysis and prototyping );
 - Git e Github;
-- VisualCode
+- VisualCode 
 - PowerBI (Views)
 
 ### 3.3 Solution Strategy
@@ -100,14 +104,32 @@ Generate some insights to present to the business team.
 
 ## 4. Top 3 Data Insights
 
-**Hypothesis 01:** Which catalog has the best purchase price according to customer recommendations?
-- Business
+**Hypothesis 01:** Which catalog has the lowest average selling price with the highest recommendation from users?
 
-**Hypothesis 02:** Which catalog has the lowest purchase price according to customer recommendations?
-- Science Fiction
+- **Reply:** Business
 
-**Hypothesis 03:** Which catalog has the highest purchase price according to customer recommendations?
-- Humor
+![Dashboard](business.png)
+
+**Hypothesis 02:** Which catalog has the lowest selling price with the highest user recommendation?
+
+**Hypothesis 03:** Which catalog has the highest selling price with the highest user recommendation?
+
+- **Reply:** Humor
+
+![Dashboard](humor.png)
+
+**Hypothesis 04:** Which catalog has the highest selling price even though it doesn't have the highest user recommendation?
+
+- **Reply:** Classic
+
+![Dashboard](classic.png)
+
+**Hypothesis 05:** Which catalog has the lowest selling price and also the lowest user recommendation?
+
+- **Reply:** Science Fiction
+
+![Dashboard](science_fiction.png)
+
 
 # 5. Business Results
 ***
@@ -115,7 +137,11 @@ Generate some insights to present to the business team.
 
 # 6. Conclusions
 
-The purpose of the project was to extract data from a website to extract structured information for further analysis and insights. I managed to deliver all the demands that can be accessed in the books available in this project.
+The objective of the project was to extract data from a website and extract structured information in order to answer the business team's question.
+
+Therefore, the preferred catalog in sales recommendations to customers should be **Business**. Because it has the lowest average selling price with the highest rate of customer recommendation. Followed by the **Humor** catalogue, as it has the lowest selling price, although it has the highest rating according to the customer recommendation index.
+
+I believe I have managed to deliver all the demands of the business problems, which can be accessed in the books available in this project can be accessed in the books available in this project.
 
 # 7. Lessons Learned
 
