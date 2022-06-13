@@ -101,13 +101,22 @@ Generate some insights to present to the business team.
 ## 4. Top 3 Data Insights
 
 **Hypothesis 01:** Which catalog has the best purchase price according to customer recommendations?
-- Business
+
+- **Reply:** Business
+
+![Dashboard](business.png)
 
 **Hypothesis 02:** Which catalog has the lowest purchase price according to customer recommendations?
-- Science Fiction
+
+- **Reply:** Science Fiction
+
+![Dashboard](science_fiction.png)
 
 **Hypothesis 03:** Which catalog has the highest purchase price according to customer recommendations?
-- Humor
+
+- **Reply:** Humor
+
+![Dashboard](humor.png)
 
 # 5. Business Results
 ***
