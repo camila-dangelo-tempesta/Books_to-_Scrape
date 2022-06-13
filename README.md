@@ -44,10 +44,12 @@ Variable | Definition
 ## 3. Solution Planning
 
 ### 3.0 Define the delivery format (View, Table, Text)
-   - [x] Defining the storage infrastructure ( csv )
-   - [x] Graph with the median price of products, by catalog and evaluation
+   - [x] Defining the storage infrastructure (database)
+      * Libraries:SQLite
+   
 ### 3.0.0 Decide the delivery location ( PowerBi, Telegram, Email, Streamlit, Intranet )
    - [x] PowerBI
+      * Graph with the median price of products, by catalog and evaluation
 
 ### 3.1 Final product
 
@@ -55,7 +57,7 @@ This project aims to deliver:
 
 - Table with al products
 - Deliver the best insights based on data behavior analysis.
-- Dashboard in PowerB
+- Dashboard in PowerBI
 
 ### 3.2 Tools
 
@@ -64,9 +66,7 @@ This project aims to deliver:
    * Webscrapping Libraries (BS4)
 - Jupyter Notebook ( Analysis and prototyping );
 - Git e Github;
-- VisualCode
-- SQL
-   * Libraries:SQLite
+- VisualCode 
 - PowerBI (Views)
 
 ### 3.3 Solution Strategy
