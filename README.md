@@ -21,13 +21,13 @@ Definition of which catalog presents the best cost benefit
  * Extraction of data from a web page (Webscraping);
  * Read the HTML content of that page;
 
-### 1.3 **Solution:**
+### 1.2 **Solution:**
 
  * Using the BeatifulSoup library for scraping;
  * Extraction of structured information for further analysis.
  * Visualization in PowerBI;
 
-
+***
 ## 2. BUSINESS ASSUMPTIONS
 
 * Dataset was obtained from [Books to Scrape](books.toscrape.com) 
@@ -42,7 +42,7 @@ Variable | Definition
 |product_star | Evaluation|
 |product_catalog | Theme to which the book belongs|
 
-
+***
 ## 3. SOLUTION PLANNING
 
 As a data scientist, I believe in the CRISP-DS methodology for project resolution and rapid value delivery. My project followed the following steps based on this methodology:
@@ -69,83 +69,32 @@ As a data scientist, I believe in the CRISP-DS methodology for project resolutio
   - Univariate Analysis
   - Bivariate Analysis
 
-
+***
 ## 4. TOP 5 DATA INSIGHTS
 
-**Hypothesis 01:** Stores with larger assortments should sell more
- - *Reply:* **Falso**. The first graph describes the amount of sales by type of assortment, then we have the behavior of the variables over time. And finally a linearity investigation of the extra attribute referring to the assortment variable
+**Hypothesis 01:** The Chosen Books reached a higher price value
+ - *Reply:* **True**. 
 
+**Hypothesis 02:** Science fiction books should have a lower price value
+ - *Reply:* **False**. 
 
-
-
-**Hypothesis 02:** Stores with closer competitors should sell less.
- - *Reply:* **Falso**. The first graph shows the relationship between sales by stores versus the distance between competitors. Where the distance is grouped from 1000 to 1000 meters. Then we have the concentration of sales by stores versus the distance of competitors. And finally, the impact of the distance variable from competitors on the response variable (sales).
-
-
-
-
-**Hypothesis 03:** Stores with longer competitors should sell more.
- - *Reply:* **Falso.** Stores with longer competitors sell less, that is, the more recent they are, the more they sell.
-The first graph shows the relationship between sales by stores versus competition time. Then we have the concentration of sales by stores versus the competition time. And finally, the impact of the competition time variable on the response variable (sales).
+**Hypothesis 03:** Humor books had the best average price value (average price)
+ - *Reply:* **False.** 
  
-
-
-
-**Hypothesis 04:** Stores with longer active promotions should sell more.
- - *Reply* **Falso.** Stores with longer active promotions (extended) sell less after a certain period of promotion. That is, it is profitable for a given time, then we have a fall.
+**Hypothesis 04:** Business books having lower price value than average
+ - *Reply* **True.** 
  
+**Hypothesis 05:** Books with fewer stars got a lower price value
+ - *Reply:* **True**
+ 
+**Hypothesis 06:** Books with fewer stars should have a lower price
+ - *Reply:* **False**
+ 
+**Hypothesis 07:** The number of stars should influence the price (direct proportionality)
+ - *Reply:* **False**
 
 
-**Hypothesis 05:** Stores with more consecutive promotions should sell more
- - *Reply:* **Falso**. The first chart shows the stores that only had the regular period. Then we have the stores that had both promotion periods (regular and extended).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 4. Top 3 Data Insights
-
-**Hypothesis 01:** Which catalog has the lowest average selling price with the highest recommendation from users?
-
-- **Reply:** Business
-
-![Dashboard](business.png)
-
-**Hypothesis 02:** Which catalog has the lowest selling price with the highest user recommendation?
-
-**Hypothesis 03:** Which catalog has the highest selling price with the highest user recommendation?
-
-- **Reply:** Humor
-
-![Dashboard](humor.png)
-
-**Hypothesis 04:** Which catalog has the highest selling price even though it doesn't have the highest user recommendation?
-
-- **Reply:** Classic
-
-![Dashboard](classic.png)
-
-**Hypothesis 05:** Which catalog has the lowest selling price and also the lowest user recommendation?
-
-- **Reply:** Science Fiction
-
-![Dashboard](science_fiction.png)
-
-
+***
 # 5. Business Results
 ***
 ![Dashboard](dashboard.png)
