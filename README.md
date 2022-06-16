@@ -146,10 +146,15 @@ As a data scientist, I believe in the CRISP-DS methodology for project resolutio
 <div align="center">
 <p float="left">
   <img src="/images/dashboard.png" width="1000" height="500"/>
-  <img src="/images/classic.png" width="500" height="500" />
-  <img src="/images/humor.png" width="500" height="500" />
-  <img src="/images/business.png" width="500" height="500" />
-  <img src="/images/science_fiction.png" width="500" height="500" />
+</p>
+</div>
+
+<div align="center">
+<p float="left">
+  <img src="/images/classic.png" width="750" height="500" />
+  <img src="/images/humor.png" width="750" height="500" />
+  <img src="/images/business.png" width="750" height="500" />
+  <img src="/images/science_fiction.png" width="750" height="500" />
 </p>
 </div>
 
