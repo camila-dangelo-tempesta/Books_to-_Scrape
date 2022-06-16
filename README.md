@@ -10,7 +10,7 @@ So, let’s begin!
 
 <div align="center">
 <p float="left">
-  <img src="/images/book.png" width="750" />
+  <img src="/images/book.png" width="1000" height="500"/>
 </p>
 </div>
 
@@ -81,7 +81,7 @@ As a data scientist, I believe in the CRISP-DS methodology for project resolutio
 
 <div align="center">
 <p float="left">
-  <img src="/images/h1.png" width="500" />
+  <img src="/images/h1.png" width="750" height="500" />
 </p>
 </div>
 
@@ -90,7 +90,7 @@ As a data scientist, I believe in the CRISP-DS methodology for project resolutio
 
 <div align="center">
 <p float="left">
-  <img src="/images/h2.png" width="500" />
+  <img src="/images/h2.png" width="750" height="500" />
 </p>
 </div>
 
@@ -99,7 +99,7 @@ As a data scientist, I believe in the CRISP-DS methodology for project resolutio
 
 <div align="center">
 <p float="left">
-  <img src="/images/h3.png" width="500" />
+  <img src="/images/h3.png" width="750" height="500" />
 </p>
 </div>
 
@@ -108,7 +108,7 @@ As a data scientist, I believe in the CRISP-DS methodology for project resolutio
 
 <div align="center">
 <p float="left">
-  <img src="/images/h4.png" width="500" />
+  <img src="/images/h4.png" width="750" height="500" />
 </p>
 </div>
 
@@ -117,7 +117,7 @@ As a data scientist, I believe in the CRISP-DS methodology for project resolutio
 
 <div align="center">
 <p float="left">
-  <img src="/images/h5.png" width="500" />
+  <img src="/images/h5.png" width="750" height="500" />
 </p>
  </div>
  
@@ -126,7 +126,7 @@ As a data scientist, I believe in the CRISP-DS methodology for project resolutio
 
 <div align="center">
 <p float="left">
-  <img src="/images/h6.png" width="500" />
+  <img src="/images/h6.png" width="750" height="500" />
 </p>
 </div>
  
@@ -135,7 +135,7 @@ As a data scientist, I believe in the CRISP-DS methodology for project resolutio
 
 <div align="center">
 <p float="left">
-  <img src="/images/h7.png" width="500" />
+  <img src="/images/h7.png" width="750" height="500" />
 </p>
 </div>
 
@@ -145,11 +145,11 @@ As a data scientist, I believe in the CRISP-DS methodology for project resolutio
 
 <div align="center">
 <p float="left">
-  <img src="/images/dashboard.png" width="1000" />
-  <img src="/images/classic.png" width="500" />
-  <img src="/images/humor.png" width="500" />
-  <img src="/images/business.png" width="500" />
-  <img src="/images/science_fiction.png" width="500" />
+  <img src="/images/dashboard.png" width="1000" height="500"/>
+  <img src="/images/classic.png" width="500" height="500" />
+  <img src="/images/humor.png" width="500" height="500" />
+  <img src="/images/business.png" width="500" height="500" />
+  <img src="/images/science_fiction.png" width="500" height="500" />
 </p>
 </div>
 
@@ -186,6 +186,7 @@ Improvements to be made in a next cycle
 ***
 Made By **Camila D'Angelo**
 
-[Portfólio](https://github.com/camila-dangelo-tempesta?tab=repositories)
-
+- 🔭 I’m currently working on DS community
+- 🌱 I’m currently learning Data Science
+- 📫 How to reach me: 
 [LinkeldIn](https://www.linkedin.com/in/camiladangelotempesta/)
