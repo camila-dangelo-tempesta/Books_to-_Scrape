@@ -8,9 +8,10 @@ In this project, I will use Python to create a simple yet effective web scraping
 
 So, let’s begin!
 
-![Book](book.png)
+<p float="left">
+  <img src="/images/book.png" width="750" />
+</p>
 ***
-
 
 ## 1. BUSINESS PROBLEMS
 
@@ -56,7 +57,7 @@ As a data scientist, I believe in the CRISP-DS methodology for project resolutio
     * Numerical Attributes
     * Categorical Attributes
  
- - [x] **Step 02:** **Feature Engineering**: Derive new attributes based on the original variables to better describe the phenomenon that will be modeled.
+- [x] **Step 02:** **Feature Engineering**: Derive new attributes based on the original variables to better describe the phenomenon that will be modeled.
   - Hypoteses Mindmap
   - Missing values
   - Grouping
@@ -73,43 +74,77 @@ As a data scientist, I believe in the CRISP-DS methodology for project resolutio
 ## 4. TOP 5 DATA INSIGHTS
 
 **Hypothesis 01:** The Chosen Books reached a higher price value
- - *Reply:* **True**. 
+ - *Reply:* **True**.
+ 
+<p float="left">
+  <img src="/images/h1.png" width="500" />
+</p>
 
 **Hypothesis 02:** Science fiction books should have a lower price value
- - *Reply:* **False**. 
+ - *Reply:* **False**.
+ 
+<p float="left">
+  <img src="/images/h2.png" width="500" />
+</p>
 
 **Hypothesis 03:** Humor books had the best average price value (average price)
  - *Reply:* **False.** 
+
+<p float="left">
+  <img src="/images/h3.png" width="500" />
+</p>
  
 **Hypothesis 04:** Business books having lower price value than average
  - *Reply* **True.** 
  
+<p float="left">
+  <img src="/images/h4.png" width="500" />
+</p>
+ 
 **Hypothesis 05:** Books with fewer stars got a lower price value
  - *Reply:* **True**
+
+<p float="left">
+  <img src="/images/h5.png" width="500" />
+</p>
  
 **Hypothesis 06:** Books with fewer stars should have a lower price
  - *Reply:* **False**
  
+<p float="left">
+  <img src="/images/h6.png" width="500" />
+</p>
+ 
 **Hypothesis 07:** The number of stars should influence the price (direct proportionality)
  - *Reply:* **False**
 
+<p float="left">
+  <img src="/images/h7.png" width="500" />
+</p>
 
 ***
-# 5. Business Results
+# 5. BUSINESS RESULTS 
 ***
-![Dashboard](dashboard.png)
+<p float="left">
+  <img src="/images/dashboard.png" width="1000" />
+  <img src="/images/classic.png" width="500" />
+  <img src="/images/humor.png" width="500" />
+  <img src="/images/business.png" width="500" />
+  <img src="/images/science_fiction.png" width="500" />
+</p>
 
-# 6. Conclusions
+***
+# 6. CONCLUSIONS
 
-The objective of the project was to extract data from a website and extract structured information in order to answer the business team's question.
+The purpose of the project was to extract data from a website and extract structured information to answer the business team's question.
 
-Therefore, the preferred catalog in sales recommendations to customers should be **Business**. Because it has the lowest average selling price with the highest rate of customer recommendation. Followed by the **Humor** catalogue, as it has the lowest selling price, although it has the highest rating according to the customer recommendation index.
+Therefore, the most cost-effective catalog should be **Business**. Because it has the lowest average selling price with the highest customer recommendation rate. The **Humor** catalog follows, as it has the second lowest selling price, although it has the highest rating (four stars) according to the customer recommendation index.
 
 I believe I have managed to deliver all the demands of the business problems, which can be accessed in the books available in this project can be accessed in the books available in this project.
 
-# 7. Lessons Learned
+# 7. LESSONS LEARNED
 
-# 8. Next Steps to Improve
+# 8. NEXT STEPS TO IMPROVE
 
 Improvements to be made in a next cycle
 
@@ -117,8 +152,8 @@ Improvements to be made in a next cycle
  - Execute new insights and new discoveries.
  - If you have any improvements to suggest, you can contact me through my [LinkedIn](https://www.linkedin.com/in/camiladangelotempesta/)
 
-
-# Tools
+***
+# TOOLS
 
 - Python 3.9.0;
    * Libraries:Pandas, Numpy
@@ -127,6 +162,7 @@ Improvements to be made in a next cycle
 - Git e Github;
 - VisualCode 
 - PowerBI (Views)
+- 
 ***
 Made By **Camila D'Angelo**
 
