@@ -11,23 +11,24 @@ So, let’s begin!
 ![Book](book.png)
 ***
 
-## 1. Business Problems
 
-Which catalog should be displayed first in the sales recommendation to users?
+## 1. BUSINESS PROBLEMS
 
-### 1.1 Problems
+Definition of which catalog presents the best cost benefit
 
-- Extract data from a web page;
-- Wrap the python code so we can send a get or post request to the webpage url and get the HTML response;
-- Read the HTML content of that page;
+### 1.1 **Context:**
 
-### 1.2 objective
+ * Extraction of data from a web page (Webscraping);
+ * Read the HTML content of that page;
 
-* Web data scraping.
+### 1.3 **Solution:**
 
-* Extraction of structured information for further analysis.
+ * Using the BeatifulSoup library for scraping;
+ * Extraction of structured information for further analysis.
+ * Visualization in PowerBI;
 
-## 2. Business Assumptions.
+
+## 2. BUSINESS ASSUMPTIONS
 
 * Dataset was obtained from [Books to Scrape](books.toscrape.com) 
 
@@ -41,66 +42,80 @@ Variable | Definition
 |product_star | Evaluation|
 |product_catalog | Theme to which the book belongs|
 
-## 3. Solution Planning
 
-### 3.0 Define the delivery format (View, Table, Text)
-   - [x] Defining the storage infrastructure (database)
-      * Libraries:SQLite
-   
-### 3.0.0 Decide the delivery location ( PowerBi, Telegram, Email, Streamlit, Intranet )
-   - [x] PowerBI
-      * Graph with the median price of products, by catalog and evaluation
-
-### 3.1 Final product
-
-This project aims to deliver:
-
-- Table with al products
-- Deliver the best insights based on data behavior analysis.
-- Dashboard in PowerBI
-
-### 3.2 Tools
-
-- Python 3.9.0;
-   * Libraries:Pandas, Numpy
-   * Webscrapping Libraries (BS4)
-- Jupyter Notebook ( Analysis and prototyping );
-- Git e Github;
-- VisualCode 
-- PowerBI (Views)
-
-### 3.3 Solution Strategy
+## 3. SOLUTION PLANNING
 
 As a data scientist, I believe in the CRISP-DS methodology for project resolution and rapid value delivery. My project followed the following steps based on this methodology:
 
-#### 3.3.1. Business understanding
 
-First of all, I went to understand the business problem. Read about and decide which strategy to use, if the beautiful soup library really was the best way to resolve it. I decided it was and decided to go to the next step
+- [x] **Step 01:** **Data Description**:  My goal is to use statistics metrics to identify data outside the scope of business.
+  - Data Dimension
+  - Data types
+  - Check NA
+  - Descriptive Statistivas
+    * Numerical Attributes
+    * Categorical Attributes
+ 
+ - [x] **Step 02:** **Feature Engineering**: Derive new attributes based on the original variables to better describe the phenomenon that will be modeled.
+  - Hypoteses Mindmap
+  - Missing values
+  - Grouping
 
-#### 3.3.2. Data Description
+- [x] **Step 03:** **Data Filtering**: Filter rows and select columns that do not contain information for modeling or that do not match the scope of the business
+  - Line filtering
+  - Selection of columns
 
-This step consists of studying the available data and performing the necessary prior cleaning:
+- [x] **Step 04:** Exploratory Data Analysis:Explore the data to find insights and better understand the impact of variables on model learning. - Line filtering
+  - Univariate Analysis
+  - Bivariate Analysis
 
-- Study the dimensions of the data
-**Step 01:** My goal is to use statistics metrics to identify data outside the scope of business.
-   * [x] Perform the median calculation on the product, catalog and evaluation
-   * [x] Perform the minimum calculation on the product, catalog and evaluation
-   * [x] Perform the maximum calculation on the product, catalog and evaluation
-- Convert types, mainly dates and numbers.
-- Check the amount of categorical and numerical variables we have.
-- Check and treat NA's
 
-#### 3.3.3. Variable filtering
+## 4. TOP 5 DATA INSIGHTS
 
-Filter the variables in order to leave only those that make sense to work for our purpose.
+**Hypothesis 01:** Stores with larger assortments should sell more
+ - *Reply:* **Falso**. The first graph describes the amount of sales by type of assortment, then we have the behavior of the variables over time. And finally a linearity investigation of the extra attribute referring to the assortment variable
 
-#### 3.3.4. Feature Engineering
 
-Creation of hypotheses to validate and generate business insights. In addition to creating variables that impact the sales phenomenon.
 
-#### 3.3.5. Exploratory Data Analysis
 
-Generate some insights to present to the business team.
+**Hypothesis 02:** Stores with closer competitors should sell less.
+ - *Reply:* **Falso**. The first graph shows the relationship between sales by stores versus the distance between competitors. Where the distance is grouped from 1000 to 1000 meters. Then we have the concentration of sales by stores versus the distance of competitors. And finally, the impact of the distance variable from competitors on the response variable (sales).
+
+
+
+
+**Hypothesis 03:** Stores with longer competitors should sell more.
+ - *Reply:* **Falso.** Stores with longer competitors sell less, that is, the more recent they are, the more they sell.
+The first graph shows the relationship between sales by stores versus competition time. Then we have the concentration of sales by stores versus the competition time. And finally, the impact of the competition time variable on the response variable (sales).
+ 
+
+
+
+**Hypothesis 04:** Stores with longer active promotions should sell more.
+ - *Reply* **Falso.** Stores with longer active promotions (extended) sell less after a certain period of promotion. That is, it is profitable for a given time, then we have a fall.
+ 
+
+
+**Hypothesis 05:** Stores with more consecutive promotions should sell more
+ - *Reply:* **Falso**. The first chart shows the stores that only had the regular period. Then we have the stores that had both promotion periods (regular and extended).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 4. Top 3 Data Insights
 
@@ -153,6 +168,16 @@ Improvements to be made in a next cycle
  - Execute new insights and new discoveries.
  - If you have any improvements to suggest, you can contact me through my [LinkedIn](https://www.linkedin.com/in/camiladangelotempesta/)
 
+
+# Tools
+
+- Python 3.9.0;
+   * Libraries:Pandas, Numpy
+   * Webscrapping Libraries (BS4)
+- Jupyter Notebook ( Analysis and prototyping );
+- Git e Github;
+- VisualCode 
+- PowerBI (Views)
 ***
 Made By **Camila D'Angelo**
 
