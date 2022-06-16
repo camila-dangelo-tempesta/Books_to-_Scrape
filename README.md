@@ -175,7 +175,6 @@ Improvements to be made in a next cycle
 
  - Perform the collection for all catalogs automatically.
  - Execute new insights and new discoveries.
- - If you have any improvements to suggest, you can contact me through my [LinkedIn](https://www.linkedin.com/in/camiladangelotempesta/)
 
 ***
 # TOOLS
