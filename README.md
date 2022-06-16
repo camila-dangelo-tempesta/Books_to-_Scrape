@@ -8,9 +8,12 @@ In this project, I will use Python to create a simple yet effective web scraping
 
 So, let’s begin!
 
+<div align="center">
 <p float="left">
   <img src="/images/book.png" width="750" />
 </p>
+</div>
+
 ***
 
 ## 1. BUSINESS PROBLEMS
@@ -36,7 +39,7 @@ Definition of which catalog presents the best cost benefit
 The variables created during project development are
 
 Variable | Definition
------------- | -------------
+:------------: | :-------------:
 |product_name | Book title|
 |product_price	 |Sale price|
 |product_stock |  Availability|
@@ -75,56 +78,72 @@ As a data scientist, I believe in the CRISP-DS methodology for project resolutio
 
 **Hypothesis 01:** The Chosen Books reached a higher price value
  - *Reply:* **True**.
- 
+
+<div align="center">
 <p float="left">
   <img src="/images/h1.png" width="500" />
 </p>
+</div>
 
 **Hypothesis 02:** Science fiction books should have a lower price value
  - *Reply:* **False**.
- 
+
+<div align="center">
 <p float="left">
   <img src="/images/h2.png" width="500" />
 </p>
+</div>
 
 **Hypothesis 03:** Humor books had the best average price value (average price)
  - *Reply:* **False.** 
 
+<div align="center">
 <p float="left">
   <img src="/images/h3.png" width="500" />
 </p>
- 
+</div>
+
 **Hypothesis 04:** Business books having lower price value than average
  - *Reply* **True.** 
- 
+
+<div align="center">
 <p float="left">
   <img src="/images/h4.png" width="500" />
 </p>
- 
+</div>
+
 **Hypothesis 05:** Books with fewer stars got a lower price value
  - *Reply:* **True**
 
+<div align="center">
 <p float="left">
   <img src="/images/h5.png" width="500" />
 </p>
+ </div>
  
 **Hypothesis 06:** Books with fewer stars should have a lower price
  - *Reply:* **False**
- 
+
+<div align="center">
 <p float="left">
   <img src="/images/h6.png" width="500" />
 </p>
+</div>
  
 **Hypothesis 07:** The number of stars should influence the price (direct proportionality)
  - *Reply:* **False**
 
+<div align="center">
 <p float="left">
   <img src="/images/h7.png" width="500" />
 </p>
+</div>
 
 ***
 # 5. BUSINESS RESULTS 
 ***
+
+<div align="center">
 <p float="left">
   <img src="/images/dashboard.png" width="1000" />
   <img src="/images/classic.png" width="500" />
@@ -132,6 +151,7 @@ As a data scientist, I believe in the CRISP-DS methodology for project resolutio
   <img src="/images/business.png" width="500" />
   <img src="/images/science_fiction.png" width="500" />
 </p>
+</div>
 
 ***
 # 6. CONCLUSIONS
