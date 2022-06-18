@@ -186,7 +186,7 @@ Improvements to be made in a next cycle
 - Git e Github;
 - VisualCode 
 - PowerBI (Views)
-- 
+
 ***
 Made By **Camila D'Angelo**
 
